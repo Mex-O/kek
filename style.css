@@ -1,0 +1,133 @@
+body,html{
+	color:;
+    margin: 0;
+    font-size: 1rem !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0.01071em !important;
+    background-color: #fff !important;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+	width: 60px;
+	height:60px;
+}
+
+
+/*Header*/
+	#Header{
+		background: url('Image/bg1.jpg');
+		background-size: cover;
+		background-position: center;
+		padding:40px;
+		height:600px;
+		background-attachment:fixed;
+		background-repeat: no-repeat;
+	}
+	@media only screen and (min-width: 900px){
+		#Header{
+		background: url('Image/bg1.jpg');
+		background-size: cover;
+		background-position: center;
+		padding:80px;
+		height:600px;
+		background-attachment:fixed;
+		background-repeat: no-repeat;
+	}
+	}
+	#Header h2{
+		margin-top:60px;
+		padding:10px;
+		font-weight: bolder;
+		font-size: 40px;
+		margin-bottom:30px;
+	}
+	#Header .btn{
+	color: #ffffff!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 100px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase!important;
+    background-color: #616ce1;
+	}
+/*Header end*/
+
+/*Section1*/
+#section1{
+	margin-top:1px;
+}
+#section1 #color1{
+	background: #ffc107;
+	padding:30px;
+	color: white;
+}
+#section1 h5{
+	font-size: 30px;
+}
+#section1 #color2{
+	background: #fff;
+	padding: 30px;
+}
+
+/*setion1 end*/
+
+
+/*Section2*/
+	#section2{
+		background:black;
+		padding: 50px;
+		color: white;
+	}
+	#section2 h4{
+		margin-top:50px;
+		font-size:30px;
+		font-weight: bold;
+	}
+/*Section2 end*/
+
+/*section3*/
+	#section3{
+		font-size: 20px;
+	}
+	#section3 i{
+		font-size: 40px;
+		padding: 10px;
+		background: transparent;
+	}
+	#section3 h6{
+		font-size: 20px;
+	}
+	#section3 #color1{
+		padding: 50px;
+		background: #ffc107;
+		color: white;
+	}
+	#section3 #color2{
+		padding: 50px;
+	}
+/*section3* end*/
+
+/*section4*/
+	#section4{
+		margin-top:20px;
+	}
+	#section4 #ul{
+		margin-top:30px;
+	}
+/*section4 end*/
+
+/*section5*/
+#section5{
+	background:black;
+	padding: 40px;
+	color: white;
+	font-size: 30px;
+}
+#section5 i{
+	font-size: 30px;
+	padding: 20px;
+}
